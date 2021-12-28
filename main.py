@@ -1,6 +1,7 @@
 import numpy as np
 import time
 
+
 class Shudu:
     '''
     Used to solve the Soduku
