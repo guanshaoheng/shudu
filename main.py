@@ -1,3 +1,5 @@
+import sys
+
 import numpy as np
 import time
 
@@ -6,12 +8,13 @@ class Shudu:
     '''
     Used to solve the Soduku
     '''
-    def __init__(self):
-        self.pool = [[list(range(1, 10)) for i in range(9)] for j in range(1, 10)]
-        self.nums = np.loadtxt('./problem4.txt', dtype=int)
+    def __init__(self, problemPath='./problem4.txt'):
+        self.pool = [[list(range(1, 10)) for _ in range(9)] for __ in range(1, 10)]
+        self.nums = np.loadtxt(problemPath, dtype=int)
         self.columnLack = [list(range(1, 10)) for _ in range(9)]
         self.rowLack = [list(range(1, 10)) for _ in range(9)]
         self.blockLack = [list(range(1, 10)) for _ in range(9)]
+        self.solvedNum = 0
         for i in range(9):
             for j in range(9):
                 if self.nums[i, j] != 0:
@@ -144,6 +147,7 @@ class Shudu:
                 if self.nums[i, j]!=0:
                     count += 1
         print('Solved elements number is: %d  left: %d' % (count, 81-count))
+        self.solvedNum = count
 
     def calSoduku(self, pos):
         if pos == 81:
@@ -202,12 +206,21 @@ class Shudu:
         np.savetxt(fname='results.txt', X=self.nums, fmt='%d')
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     time1 = time.time()
-    shudu = Shudu()
+    shudu = Shudu(problemPath='./problem4.txt')
     # pre-process to decrease the computation numbers needed
+    lastSolvedNum = 0
     for i in range(10):
         shudu.forward()
         shudu.check()
+        if shudu.solvedNum == lastSolvedNum:
+            break
+        else:
+            lastSolvedNum = shudu.solvedNum
+        if shudu.solvedNum >= 81:
+            print(shudu.nums)
+            print('Consumed time: %es' % (time.time() - time1))
+            sys.exit()
     shudu.calSoduku(pos=0)
     print('Consumed time: %es' % (time.time() - time1))
