@@ -8,3 +8,10 @@
 
 ## 迭代步
 - 回溯算法：遍历每一个可能性，<code>is_valid==True</code>就计算下一个位置，否则尝试下一个可能性，如果都不可以，则退回到上一步
+
+## Solutions
+
+<img src="D:\ubuntu_home\shudu\problem1.png" width="500"/>
+<img src="D:\ubuntu_home\shudu\problem2.png" width="500"/>
+<img src="D:\ubuntu_home\shudu\problem3.png" width="500"/>
+<img src="D:\ubuntu_home\shudu\problem4.png" width="500"/>
