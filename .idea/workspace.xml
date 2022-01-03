@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b2aec51-b437-4262-abaa-202253589b45" name="Changes" comment="first commit">
+    <list default="true" id="6b2aec51-b437-4262-abaa-202253589b45" name="Changes" comment="Tiny modification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/problem1.png" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -72,7 +71,7 @@
       <workItem from="1640704796356" duration="18390000" />
       <workItem from="1640809937072" duration="301000" />
       <workItem from="1641154481492" duration="112000" />
-      <workItem from="1641240066898" duration="1064000" />
+      <workItem from="1641240066898" duration="1610000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1640727895436</created>
@@ -81,7 +80,35 @@
       <option name="project" value="LOCAL" />
       <updated>1640727895436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tiny modification">
+      <created>1641241178017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641241178017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tiny modification">
+      <created>1641241349565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641241349565</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tiny modification">
+      <created>1641241401402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641241401402</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tiny modification">
+      <created>1641241607237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641241607237</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Tiny modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tiny modification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
