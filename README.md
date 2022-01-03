@@ -13,10 +13,13 @@
 问题来自于Ubuntu应用中的数独游戏
 
 - 简单数独，采用逻辑步骤可以求解
-<img src="./problem1.png" width="500" title="简单数独，采用逻辑步骤可以求解"/>
+<img src="./problem1.png" width="500" title="Easy problem: solution can obtained via logical procedures"/>
+
 - 中等数独，多采用几个逻辑步求解
 <img src="./problem2.png" width="500" title="中等数独，多采用几个逻辑步求解"/>
+
 - 困难数独，无法采用逻辑步求全部结果，需要回溯算法迭代
 <img src="./problem3.png" width="500" title="困难数独，无法采用逻辑步求全部结果，需要回溯算法迭代"/>
+
 - 非常困难数独，无法采用逻辑步求全部结果，需要回溯算法迭代，困难和非常困难对程序来说没什么区别
 <img src="./problem4.png" width="500" title="非常困难数独，无法采用逻辑步求全部结果，需要回溯算法迭代" alt="困难和非常困难对程序来说没什么区别"/>
