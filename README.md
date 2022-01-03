@@ -11,7 +11,7 @@
 
 ## Solutions
 
-<img src="D:\ubuntu_home\shudu\problem1.png" width="500"/>
-<img src="D:\ubuntu_home\shudu\problem2.png" width="500"/>
-<img src="D:\ubuntu_home\shudu\problem3.png" width="500"/>
-<img src="D:\ubuntu_home\shudu\problem4.png" width="500"/>
+<img src="./problem1.png" width="500"/>
+<img src="./problem2.png" width="500"/>
+<img src="./problem3.png" width="500"/>
+<img src="./problem4.png" width="500"/>
